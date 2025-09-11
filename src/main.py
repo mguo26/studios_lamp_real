@@ -5,16 +5,6 @@ from restaurant import load_data
 
 FILE_PATH = "../data/restaurant_data.json"
 
-def load_data():
-    
-    
-    with FILE_PATH.open
-
-
-
-def save_data() 
-
-
 def view_menu(menu):
     print("--- Menu ---")
     if not menu:
@@ -76,15 +66,16 @@ def main():
             update_item(menu)
         elif choice == "4":
             delete_item(menu)
-        elif choice == "5":
-            save_data(FILE_PATH, menu)
-            print("Changes saved.")
-        elif choice == "0":
-            save_data(FILE_PATH, menu)
-            print("Goodbye. All changes saved.")
-            break
+        # elif choice == "5":
+        #     save_data(FILE_PATH, menu)
+        #     print("Changes saved.")
+        # elif choice == "0":
+        #     save_data(FILE_PATH, menu)
+        #     print("Goodbye. All changes saved.")
+        #     break
         else:
             print("Invalid choice.")
 
 if __name__ == "__main__":
     main()
+

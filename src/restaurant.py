@@ -21,8 +21,8 @@ class Restaurant:
 # Save changes back to the JSON file
 # Validate input where possible (wrong menu choices, invalid ids).
 
-import json
-from menu_item import MenuItem
+        import json
+    from menu_item import MenuItem
 
 class Restaurant:
     def __init__(self, name, location, cuisine, categories):
